@@ -1,6 +1,4 @@
-{{*We highly recommend keeping this document current, and Microsoft reserves a right to remove devices and documents from the Azure IoT Device Catalog if document contains broken URL links, incorrect information etc.*}}
-
-Run Azure IoT Edge Runtime on {enter your device name here} device running {enter the OS name running on edge device. Specify distribution or Windows SKU information. Ex: Ubuntu Sever 16.04, Windows 10 IoT Core.}
+Run Azure IoT Edge Runtime on Express5800 T110j-S device running Ubuntu 18.04
 ===
 ---
 
@@ -10,23 +8,14 @@ Run Azure IoT Edge Runtime on {enter your device name here} device running {ente
 -   [Step 1: Prerequisites](#Prerequisites)
 -   [Step 2: Prepare your Device](#PrepareDevice)
 -   [Step 3: Manual Test for Azure IoT Edge on device](#Manual)
--   [Step 4: Additional information](#Additionalinformation)
--   [Step 5: Additional Links](#AdditionalLinks)
-
-# Instructions for using this template
-
--   Replace the text in {placeholders} with correct values.
--   Delete the lines {{enclosed}} after following the instructions enclosed between them.
--   It is advisable to use external links, wherever possible.
--   Remove this section from final document.
--   Provide estimated time to complete the end-to-end operation. For better experience, we recommend to put estimated time for each section in "Prepare your device" and "Manual Test for Azure IoT Edge on device" respectively
+-   [Step 4: Additional Links](#AdditionalLinks)
 
 <a name="Introduction"></a>
 # Introduction
 
 **About this document**
 
-This document describes how to connect {enter your device name here} device running {enter the OS name running on edge device} with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
+This document describes how to connect Express5800 T110j-S device running Ubuntu 18.04 with Azure IoT Edge Runtime pre-installed and Device Management. This multi-step process includes:
 
 -   Configuring Azure IoT Hub
 -   Registering your IoT device
@@ -42,13 +31,12 @@ You should have the following items ready before beginning the process:
 -   [Setup your IoT hub](https://github.com/Azure/azure-iot-device-ecosystem/blob/master/setup_iothub.md)
 -   [Add the Edge Device](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux)
 -   [Add the Edge Modules](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux?view=iotedge-2018-06#deploy-a-module)
--   {enter your device name here} device.
+-   Express5800 T110j-S device.
 
 <a name="PrepareDevice"></a>
 # Step 2: Prepare your Device
 
--   {{Write down the instructions required to setup, configure and connect your device. Please use external links when possible pointing to your own page with device preparation steps.}}
--   {{Please specify if any other software(s) or hardware(s) are required.}}
+-   [Express5800 T110j-S device](https://jpn.nec.com/pcserver/tower/t110js/index.html)
 
 <a name="Manual"></a>
 # Step 3: Manual Test for Azure IoT Edge on device
@@ -87,12 +75,7 @@ On the device details page of the Azure, you should see the runtime modules - ed
 
  ![](./images/tempSensor.png)
 
-<a name="Additionalinformation"></a>
-# Step 4: Additional information
-Put any additional information here such as additional description, alternative paths etc.
-
-<a name="AdditionalLinks"></a>
-# Step 5: Additional Links
+# Step 4: Additional Links
 
 -   [What is Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge?view=iotedge-2018-06)
 -   [Azure IoT Edge 1.0.10 release is now available](https://azure.microsoft.com/en-us/updates/iot-edge1-0-10/)
